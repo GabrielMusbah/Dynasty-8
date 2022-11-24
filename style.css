@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('imagem/fundo-main.jpeg');
+}
+
+/* header */
+
+header .img-top {
+    background-image: url('imagem/fundo-topo.png');
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+header .img-top img {
+    height: 20vh;
+}
+
+header .titulo-top {
+    background-color: rgb(0, 102, 51);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .titulo-top h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+header .triangulo-top {
+    background-image: url('imagem/triang-topo.png');
+    background-repeat: repeat-x;
+    height: 3vh;
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+main article {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+main article figure {
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+main article figure img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+main article section h2 {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: rgb(0, 102, 51);
+}
+
+main article section p {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+footer .triangulo-bot {
+    background-image: url('imagem/triang-topo.png');
+    background-repeat: repeat-x;
+    height: 5vh;
+    transform: rotate(180deg);
+}
+
